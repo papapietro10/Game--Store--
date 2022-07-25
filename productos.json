@@ -1,0 +1,118 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "GT - Gran Turismo 7",
+            "price": 100,
+            "image": "./images/1.webp",
+            "category": "Deporte"
+        },
+        {
+            "id": 2,
+            "title": "Horizon",
+            "price": 150,
+            "image": "./images/5.webp",
+            "category": "Aventura"
+        },
+        {
+            "id": 3,
+            "title": "Resident Evil",
+            "price": 130,
+            "image": "./images/12.webp",
+            "category": "Accion"
+        },
+        {
+            "id": 4,
+            "title": "Spider-man",
+            "price": 150,
+            "image": "./images/8.webp",
+            "category": "Aventura"
+        },
+        {
+            "id": 5,
+            "title": "Call of Duty - Vanguard",
+            "price": 200,
+            "image": "./images/10.jpeg",
+            "category": "Accion"
+
+        },
+        {
+            "id": 6,
+            "title": "NBA 2K22",
+            "price": 200,
+            "image": "./images/2.webp",
+            "category": "Deporte"
+
+        },
+        {
+            "id": 7,
+            "title": "FIFA 22",
+            "price": 200,
+            "image": "./images/3.webp",
+            "category": "Deporte"
+        },
+        {
+            "id": 8,
+            "title": "Ratchet - Clank",
+            "price": 150,
+            "image": "./images/6.webp",
+            "category": "Aventura"
+        },
+        {
+            "id": 9,
+            "title": "THE LAST OF US PART II",
+            "price": 170,
+            "image": "./images/7.webp",
+            "category": "Aventura"
+        },
+        {
+            "id": 10,
+            "title": "Combo 1",
+            "price": 500,
+            "image": "./images/13.webp",
+            "category": "Combos"
+        },
+        {
+            "id": 11,
+            "title": "GHOST",
+            "price": 150,
+            "image": "./images/11.webp",
+            "category": "Accion"
+        },
+        {
+            "id": 12,
+            "title": "FIFA 22 - PS5",
+            "price": 200,
+            "image": "./images/4.webp",
+            "category": "Deporte"
+        },
+        {
+            "id": 13,
+            "title": "Combo 2",
+            "price": 500,
+            "image": "./images/14.webp",
+            "category": "Combos"
+        },
+        {
+            "id": 14,
+            "title": "GTA V",
+            "price": 150,
+            "image": "./images/9.webp",
+            "category": "Accion"
+        },
+        {
+            "id": 15,
+            "title": "Combo 3",
+            "price": 500,
+            "image": "./images/15.webp",
+            "category": "Combos"
+        },
+        {
+            "id": 16,
+            "title": "Combo 4",
+            "price": 500,
+            "image": "./images/16.jpeg",
+            "category": "Combos"
+        }
+    ]
+}

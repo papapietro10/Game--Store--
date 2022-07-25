@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Game-Store</title>
+        <link rel="shortcut icon" href="./images/games.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+        <!--Box icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <script src="./js/scripts.js" defer></script>
+    </head>
+    <header>
+      <nav class="nav">
+        
+        <div class="nav__center container">
+          <img src="./images/games.png" alt="logo" class="header-logo">
+          <div class="nav__logo"></div>
+            <ul class="nav__list">
+              <div class="carrito__icon">
+                <i class="bx bx-cart"></i>
+                <span class="item__total">0</span>
+              </div>
+            </ul>
+          </div>
+      </nav>
+    </header>
+       
+    <!--Navegation-->
+    <section>
+      <div class="fondo justify-content-center" >
+        <h1>GAME-OVER </h1>
+        <p>STORE</p>
+      </div>
+       <!---Carrusel-->
+    <div class="black">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://www.callofduty.com/es/blackopscoldwar">
+            <img src="./images/call-of-duty-blacks-ops-.jpg" class="d-block w-10" alt="...">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.playstation.com/es-ar/games/assassins-creed-odyssey/">
+          <img src="./images/assassins.jpg"  class="d-block w-10" alt="...">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.ea.com/es-es/games/fifa">
+          <img src="./images/fifa.jpeg" class="d-block w-10" at="...">
+        </a>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </section>
+    
+    <div class="videos-carousel">
+      <h2>Proximamente</h2>
+          <!--youtube
+      <iframe src="https://www.youtube-nocookie.com/embed/qbLVd5I5Xbg"></iframe>
+      <iframe src="https://www.youtube-nocookie.com/embed/O75Ip4o1bs8" ></iframe>
+      <iframe src="https://www.youtube-nocookie.com/embed/4rKFkLeRF3Q"></iframe>
+    -->
+    <!--Filter-->
+    <section class="filter ">
+      <div class="grid">
+        <img src="./images/filtro.png" alt="filtro" class="imagen-filtro">
+        <div class="category">
+          <img src="./images/games.png" alt="logo" class="header-logo">
+          <select id="category" onclick="categoryValue()">
+            <option value="">Categorias</option>
+            <option value="Deporte">Deporte</option>
+            <option value="Accion">Accion</option>
+            <option value="Aventura">aventura</option>
+            <option value="Combos">Combos</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!--Productos-->
+    <section class="productos">
+      <div class="productos__center">
+     
+      </div>
+      <div id="card-container-deporte"></div>
+    </section>
+
+    <!--Carrito-->
+    
+    <section class="carrito__overlay">
+      <div class="carrito">
+        <span class="close__carrito">
+          <i class="bx bx-x"></i>
+        </span>
+        <h1>Su Carrito</h1>
+
+        <div class="carrito__center">
+        </div>
+        <div class="carrito__footer">
+            <h3>Total: $ <span class="carrito__total">0</span></h3>
+            <button class="clear__carrito btn">remover carrito</button>
+        </div>
+      </div>
+    </section>
+    <!---Imagen de promocion-->
+    <section class="nuestros-gamers">
+      <div class="register-ps4">
+        <a href="https://www.playstation.com/es-ar/ps4/">
+        <img src="./images/ps5-registration-banner-lp-desktop.webp" alt=""  srcset="">
+      </a>
+      </div>
+    </section>
+    <!-- FORMULARIO  --> 
+    <section>
+      <form class="formulario-contacto" >
+        <h2>! Contactanos !</h2>
+        <div class="position">
+          <div class="col-md-4 position-relative">
+            <label  class="form-label">Nombre</label>
+            <input  class="form-control" id="nombre" placeholder="Ingresar">
+          </div>
+          <div class="col-md-4 position-relative">
+            <label class="form-label">Apellido</label>
+            <input  class="form-control" id="apellido" placeholder="Ingresar">
+          </div>
+          <div class="col-md-4 position-relative email-contac">
+            <label type="email"  class="form-label">Email</label>
+            <input type="email" class="form-control ingrese_mail_inicio" id="mail" name="email" aria-describedby="emailHelp" placeholder="Email"> 
+          <div class="">
+            
+            <button type="button" class="btn btn-primary" id="enviar">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    
+    <footer>
+      <div class="footer-fo">
+        <img src="./images/games.png" alt="logo" class="header-logo">
+        <h2>Game - Over</h2>
+        <h2>Instagram : Game-over-store</h2>
+        <h2>Principales proveedores de playstation</h2>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <!--Incorporando libreria-->
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  </body>
+</html>
