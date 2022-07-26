@@ -136,7 +136,7 @@ class UI {
 				//Set cart values
 				this.setItemValues(carrito)
 				this.addCarritoItem(carritoItem)
-				//Show al carrito
+			
 			})
 		})
 	}
@@ -330,3 +330,22 @@ document.addEventListener("DOMContentLoaded", async () =>{
 		ui.cartLogic();
 	}
 })
+
+//*Evento en el bt de enviar formulario*//
+const enviar = document.getElementById("enviar");
+
+enviar.onclick = () =>{
+const nombre = document.getElementById("nombre").value;
+const mail = document.getElementById("mail").value;
+const apellido = document.getElementById("apellido").value;
+localStorage.setItem("nombre", JSON.stringify((nombre)))
+localStorage.setItem("apellido", JSON.stringify((apellido)))
+localStorage.setItem("mail", JSON.stringify((mail)))
+Swal.fire(
+  '!Su mensaje se envio con exito!',
+  '¡Muchas gracias!',
+  'success'
+)
+
+}
+

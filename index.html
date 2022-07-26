@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" href="./css/styles.css" />
         <script src="./js/scripts.js" defer></script>
+        <script src="./js/api.js" defer></script>
     </head>
     <header>
       <nav class="nav">
@@ -28,7 +29,6 @@
           </div>
       </nav>
     </header>
-       
     <!--Navegation-->
     <section>
       <div class="fondo justify-content-center" >
@@ -68,11 +68,11 @@
     
     <div class="videos-carousel">
       <h2>Proximamente</h2>
-          <!--youtube
+         
       <iframe src="https://www.youtube-nocookie.com/embed/qbLVd5I5Xbg"></iframe>
       <iframe src="https://www.youtube-nocookie.com/embed/O75Ip4o1bs8" ></iframe>
       <iframe src="https://www.youtube-nocookie.com/embed/4rKFkLeRF3Q"></iframe>
-    -->
+   
     <!--Filter-->
     <section class="filter ">
       <div class="grid">
@@ -89,24 +89,19 @@
         </div>
       </div>
     </section>
-
     <!--Productos-->
     <section class="productos">
       <div class="productos__center">
-     
       </div>
       <div id="card-container-deporte"></div>
     </section>
-
     <!--Carrito-->
-    
     <section class="carrito__overlay">
       <div class="carrito">
         <span class="close__carrito">
           <i class="bx bx-x"></i>
         </span>
         <h1>Su Carrito</h1>
-
         <div class="carrito__center">
         </div>
         <div class="carrito__footer">
@@ -117,11 +112,35 @@
     </section>
     <!---Imagen de promocion-->
     <section class="nuestros-gamers">
-      <div class="register-ps4">
-        <a href="https://www.playstation.com/es-ar/ps4/">
-        <img src="./images/ps5-registration-banner-lp-desktop.webp" alt=""  srcset="">
+    <div class="register-ps4">
+      <a href="https://www.playstation.com/es-ar/ps4/">
+        <img src="./images/ps5-registration-banner-lp-desktop.png" alt=""  srcset="">
       </a>
+    </div>
+    </section>
+    <section>
+      <div class="categoria-games">
+        <h2 id="deporte agregarcarrito">Productos</h2>
       </div>
+      <section class="productos">
+        <div class="productos__center">
+          <div class="contenedor-cards">
+            <div id="card-container-api" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+          </div>
+        </div>
+      
+      </section>
+      
+          <div class="play-5">
+            <p>Consola PlayStation 5</p>
+          </div>
+          <div class=" ps5-segundap"> 
+          <div class="ps5-info">
+              <p> Vive una nueva generación de juegos increíbles de PlayStation.</p>
+              <button id="ps5-info" type="button" class="btn btn-dark">Mas informacion</button>
+            </div>
+            <img src="./images/playsbp.webp" alt="">
+        </div>
     </section>
     <!-- FORMULARIO  --> 
     <section>
@@ -140,13 +159,11 @@
             <label type="email"  class="form-label">Email</label>
             <input type="email" class="form-control ingrese_mail_inicio" id="mail" name="email" aria-describedby="emailHelp" placeholder="Email"> 
           <div class="">
-            
-            <button type="button" class="btn btn-primary" id="enviar">Enviar</button>
+            <button type="button" class="btn btn-primary " id="enviar">Enviar</button>
           </div>
         </div>
       </form>
     </section>
-    
     <footer>
       <div class="footer-fo">
         <img src="./images/games.png" alt="logo" class="header-logo">
@@ -159,6 +176,5 @@
       <script src="./js/bootstrap.bundle.min.js"></script>
       <!--Incorporando libreria-->
       <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
   </body>
 </html>

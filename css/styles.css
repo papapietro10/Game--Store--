@@ -37,7 +37,7 @@ box-sizing: border-box;
 font-size: 62.5%;
 }
 body{
-font-family: game;
+
 font-size: 1.6rem;
 font-weight: 400;
 color: var(--black);
@@ -74,7 +74,7 @@ height: auto;
 }
 
 .nav{
-position: fixed;
+
 top: 0;
 left: 0;
 width: 100%;
@@ -94,12 +94,7 @@ height: 100%;
 display: flex;
 align-items: center;
 }
-.nav__list span{
-display: inline-block;
-font-size: 3.5rem;
-margin-top: .2rem;
-margin-right: 2rem;
-}
+
 .carrito__icon{
 position: relative;
 cursor: pointer;
@@ -149,14 +144,14 @@ box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .2);
 background-color: #ffffff;
 color: rgb(0, 0, 0);
 width: 90%;
-font-family: graff;
+
 text-align: center;
 }
 .titulo-producto{
 margin-top: 10%;
 }
 .image__container img{
-width: 310px;
+width: 18em;
 }
 .productos__footer{
 padding: 1rem;
@@ -175,14 +170,17 @@ margin: 1rem 0;
 .bottom{
 display: flex;
 justify-content: space-between;
+align-items:flex-end;
 align-items: center;
 padding: 2rem 0;
+
+height: 100%;
 }
 .btn{
 display: inline-block;
-border: 1px solid rgb(8, 0, 255);
+background-color: rgb(8, 0, 255);;
 padding: 1rem 1.8rem;
-color: var(--black);
+color: var(--white);
 font-weight: 500;
 font-size: 1.7rem;
 cursor: pointer;
@@ -369,6 +367,7 @@ width: 60%;
 margin-left: 20%;
 overflow: hidden;
 background-color: #000000;
+overflow: hidden;
 
 }
 .carousel-inner img{
@@ -408,8 +407,8 @@ overflow: hidden;
 
 /*Filter*/
 .filter{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 padding: 0 2rem;
 width: 100%;
 margin: 12rem auto 0 auto;
@@ -575,15 +574,69 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
 }
 .form-label{
 text-align: center;
 font-family: game;
 color: #fff;
-font-size: 2em
+font-size: 2em;
 }
 .form-control{
 text-align: center;
 font-family: game;
+height: 4em;
 }
+.btn-primary{
+    margin-top: 10%;
+}
+.play-5 {
+    
+   height: 14em;
+}
+.play-5 p{
+    font-family: game;
+   color: #f2f2f2;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 5em;
+}
+.ps5-segundap{
+    height: 33em;
+    filter: drop-shadow(0px 0px 20px blue);
+    background-color: #fff;
+   display: flex;
+}
+
+.ps5-info{
+height: 5em;
+width: 100%;
+}
+.ps5-info p{
+    margin-left: 20%;
+    margin-top: 4em;
+    font-size: 2em;
+    
+}
+.ps5-info  button{
+    width: 25%;
+    height: 3em;
+margin-top: 15%;
+margin-left: 40%;
+}
+.ps5-segundap img{
+    width: 80%;
+    height: 30em;
+    margin-left: 10%;
+   
+}
+
+.producto-api{
+    padding: 5rem 0;
+    background-color: #000000;
+    overflow: hidden;
+  }
+
+  .producto-img-api img{
+    width: 12em;
+    overflow: hidden;
+  }
