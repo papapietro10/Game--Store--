@@ -13,13 +13,15 @@
             "price": 150,
             "image": "./images/5.webp",
             "category": "Aventura"
+             
         },
         {
             "id": 3,
             "title": "Resident Evil",
             "price": 130,
-            "image": "./images/12.webp",
-            "category": "Accion"
+            "image": "./images/12.webp"
+           
+           
         },
         {
             "id": 4,
@@ -27,6 +29,7 @@
             "price": 150,
             "image": "./images/8.webp",
             "category": "Aventura"
+          
         },
         {
             "id": 5,
@@ -34,6 +37,7 @@
             "price": 200,
             "image": "./images/10.jpeg",
             "category": "Accion"
+           
 
         },
         {
@@ -42,6 +46,7 @@
             "price": 200,
             "image": "./images/2.webp",
             "category": "Deporte"
+            
 
         },
         {
@@ -50,6 +55,7 @@
             "price": 200,
             "image": "./images/3.webp",
             "category": "Deporte"
+        
         },
         {
             "id": 8,
@@ -57,6 +63,7 @@
             "price": 150,
             "image": "./images/6.webp",
             "category": "Aventura"
+          
         },
         {
             "id": 9,
@@ -64,6 +71,7 @@
             "price": 170,
             "image": "./images/7.webp",
             "category": "Aventura"
+          
         },
         {
             "id": 10,
@@ -71,6 +79,7 @@
             "price": 500,
             "image": "./images/13.webp",
             "category": "Combos"
+           
         },
         {
             "id": 11,
@@ -78,6 +87,7 @@
             "price": 150,
             "image": "./images/11.webp",
             "category": "Accion"
+         
         },
         {
             "id": 12,
@@ -85,6 +95,7 @@
             "price": 200,
             "image": "./images/4.webp",
             "category": "Deporte"
+    
         },
         {
             "id": 13,
@@ -92,6 +103,7 @@
             "price": 500,
             "image": "./images/14.webp",
             "category": "Combos"
+           
         },
         {
             "id": 14,
@@ -99,6 +111,7 @@
             "price": 150,
             "image": "./images/9.webp",
             "category": "Accion"
+      
         },
         {
             "id": 15,
@@ -106,6 +119,7 @@
             "price": 500,
             "image": "./images/15.webp",
             "category": "Combos"
+          
         },
         {
             "id": 16,
@@ -113,6 +127,7 @@
             "price": 500,
             "image": "./images/16.jpeg",
             "category": "Combos"
+           
         }
     ]
 }

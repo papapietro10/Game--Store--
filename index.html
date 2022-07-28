@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Game-Store</title>
-        <link rel="shortcut icon" href="./images/games.png" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
-        <!--Box icons-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
-        <link rel="stylesheet" href="./css/bootstrap.min.css" />
-        <link rel="stylesheet" href="./css/styles.css" />
-        <script src="./js/scripts.js" defer></script>
-        <script src="./js/api.js" defer></script>
-    </head>
-    <header>
-      <nav class="nav">
-        
-        <div class="nav__center container">
-          <img src="./images/games.png" alt="logo" class="header-logo">
-          <div class="nav__logo"></div>
-            <ul class="nav__list">
-              <div class="carrito__icon">
-                <i class="bx bx-cart"></i>
-                <span class="item__total">0</span>
-              </div>
-            </ul>
-          </div>
-      </nav>
-    </header>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Game-Store</title>
+      <link rel="shortcut icon" href="./images/games.png" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+      <link rel="stylesheet" href="./css/bootstrap.min.css" />
+      <link rel="stylesheet" href="./css/styles.css" />
+      <script src="./js/scripts.js" defer></script>
+      <script src="./js/api.js" defer></script>
+  </head>
+  <header>
+    <nav class="nav">
+      <div class="nav__center container" id="5">
+        <img src="./images/games.png" alt="logo"  class="header-logo">
+        <a href="#1" >jUEGOS</a>
+        <a href="#2">PRODUCTOS-SONY</a>
+        <a href="#3">CONTACTO</a>
+        <div class="nav__logo"></div>
+          <ul class="nav__list">
+            <div class="carrito__icon">
+              <i class="bx bx-cart"></i>
+              <span class="item__total">0</span>
+            </div>
+          </ul>
+        </div>
+    </nav>
+  </header>
+  <body>
     <!--Navegation-->
     <section>
       <div class="fondo justify-content-center" >
@@ -65,22 +67,18 @@
       </div>
     </div>
     </section>
-    
     <div class="videos-carousel">
-      <h2>Proximamente</h2>
-         
-      <iframe src="https://www.youtube-nocookie.com/embed/qbLVd5I5Xbg"></iframe>
-      <iframe src="https://www.youtube-nocookie.com/embed/O75Ip4o1bs8" ></iframe>
-      <iframe src="https://www.youtube-nocookie.com/embed/4rKFkLeRF3Q"></iframe>
-   
+      <img src="./images/HP_TLOURemastered_1440x200_FullBlade_D.webp" id="click-ladt" alt="">    
+    </div>
     <!--Filter-->
-    <section class="filter ">
-      <div class="grid">
-        <img src="./images/filtro.png" alt="filtro" class="imagen-filtro">
+    <section class="filter " id="1">
+      <div class="grid"> 
+        <img src="./images/filtro.png" alt="filtro" class="imagen-filtro">    
         <div class="category">
-          <img src="./images/games.png" alt="logo" class="header-logo">
+          <h2>Elije una categoria </h2>
+          <img src="./images/games.png" alt="logo" class="header-logo">      
           <select id="category" onclick="categoryValue()">
-            <option value="">Categorias</option>
+            <option value="todos" >Categorias</option>
             <option value="Deporte">Deporte</option>
             <option value="Accion">Accion</option>
             <option value="Aventura">aventura</option>
@@ -90,7 +88,7 @@
       </div>
     </section>
     <!--Productos-->
-    <section class="productos">
+    <section class="productos" >
       <div class="productos__center">
       </div>
       <div id="card-container-deporte"></div>
@@ -119,18 +117,17 @@
     </div>
     </section>
     <section>
-      <div class="categoria-games">
-        <h2 id="deporte agregarcarrito">Productos</h2>
+      <div class="categoria-games" id="2">
+        <h2 id="deporte agregarcarrito">Tienda oficial SONY</h2>
       </div>
+      <P>Productos tienda oficial</P>
       <section class="productos">
         <div class="productos__center">
           <div class="contenedor-cards">
             <div id="card-container-api" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
           </div>
         </div>
-      
       </section>
-      
           <div class="play-5">
             <p>Consola PlayStation 5</p>
           </div>
@@ -143,7 +140,7 @@
         </div>
     </section>
     <!-- FORMULARIO  --> 
-    <section>
+    <section id="3">
       <form class="formulario-contacto" >
         <h2>! Contactanos !</h2>
         <div class="position">
@@ -167,6 +164,9 @@
     <footer>
       <div class="footer-fo">
         <img src="./images/games.png" alt="logo" class="header-logo">
+        <a href="#5">
+          <button type="button" class="btn volver " >Volver al inicio</button>
+        </a>
         <h2>Game - Over</h2>
         <h2>Instagram : Game-over-store</h2>
         <h2>Principales proveedores de playstation</h2>
