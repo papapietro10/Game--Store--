@@ -23,10 +23,10 @@ cards += `<div class="producapi">
 <div class="card images-container">                     
 <img class="card-img-to images"  src="${productos.thumbnail}"alt="..." />                
 <div class="">
-<div class="text-center ">
-<h5 class="titulo-api" >${productos.title}</h5><p class="precio">$${productos.price}</p>
-
+<div class="text-center-dor">
+<h5 class="titulo-api" >${productos.title}</h5>
 </div>
+<div><p class="precio">$${productos.price}</p></div>
 </div>
 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
 <div class="text-center verproducto"><a class="btn btn-outline-dark mt-auto boton-api"  href="${productos.permalink}">Ver producto</a></div>

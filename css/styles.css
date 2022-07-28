@@ -128,9 +128,8 @@ border-radius: 50%;
 }
 
 /* PRODUCTOS */
-.rating span{
-font-size: 2rem;
-color: yellow;
+.fantasma{
+width: 50%;
 
 }
 .productos{
@@ -205,6 +204,10 @@ font-family: game;
 
 
 }
+.grupo-botones{
+    position: relative;
+    top: 1em;
+}
 .btn:hover{
 background-color: var(--azul);
 color: var(--white);
@@ -212,13 +215,14 @@ border: 1px solid var(--azul);
 }
 .price{
 font-weight: 700;
-font-size: 1.8rem;
+font-size: 2rem;
+
 }
 
 
 /* Carrito */
 .carrito__overlay{
-position: fixed;
+    position: fixed;
 top: 0;
 left: 0;
 width: 100%;
@@ -685,9 +689,10 @@ text-align:center;
 .producapi{
     margin-top: 10%;
     padding: 0px 5px 20px ;
+    height: 16em;
 }
 .images-container{
-    height: 16em;
+    height: 17em;
    
 }
 .images{
@@ -699,13 +704,31 @@ text-align:center;
     width: 60%;
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
 animation: color-change-2x 2s linear infinite alternate both;
+height: 285em;
+
   
 }
 
-.text-center {
-    height: 6em;
+
+.text-center-dor{
+    height: 3em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 2.6em;
+
 }
 .volver{
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
     animation: color-change-2x 2s linear infinite alternate both;
+}
+
+.precio{
+    
+    font-size: 1.8em;
+    text-align: center;
+
+}
+.boton-api{
+    
 }

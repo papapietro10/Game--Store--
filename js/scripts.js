@@ -71,22 +71,11 @@ result += `
     <h1>${producto.title}</h1>
     <div class="rating">
 <span>
-<i class="bx bxs-star"></i>
+
 </span>
-<span>
-<i class="bx bxs-star"></i>
-</span>
-<span>
-<i class="bx bxs-star"></i>
-</span>
-<span>
-<i class="bx bxs-star"></i>
-</span>
-<span>
-<i class="bx bx-star"></i>
-</span>
-</div>
-<div class="price">$${producto.price}</div>
+
+</div >
+<p class="price">$${producto.price}</p>
 </div>
 <div class="bottom">
 <div class="btn__group">
